@@ -36,4 +36,5 @@
 </ol>
 
 <h3>⌨️ Prion-Like Sequence Generation</h3>
-
+<p align='left'>Prion Sequence is generated using Fine Tuned Prot-T5-XL-U50 model. More information on the base model can be found <a href=https://huggingface.co/Rostlab/prot_t5_xl_uniref50>here</a>.
+The fine-tuned model has been tested to generate sequences of upto 512 amino acids. The generated sequences have been examined and found to have high QN content (~ 25-30%), with presence of single/multiple Prion Domains, which have also been verified from existing web based tools like <a href=http://plaac.wi.mit.edu/>PLAAC</a> and <a href=http://webapps.bifi.es/prionscan>PrionScan</a></p>
