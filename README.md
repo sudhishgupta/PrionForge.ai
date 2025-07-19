@@ -42,8 +42,7 @@ The fine-tuned model has been tested to generate sequences of upto 512 amino aci
 <img width="1585" height="525" alt="image" src="https://github.com/user-attachments/assets/6381e804-d05f-4933-b5ba-0c3b58528887" />
 
 <h3>🗳️ Prion Classification</h3>
-<p align='left'>The sequences sampled and genrated by FT-ProtGPT2 model are then filtered through a embedding based prion classifier. Protein-Language Models are known to learn deep feature representation of proteins and their functions (biological/physico-chemical) in form of numerical embeddings. To investigate if these models can distinguish between prion and non prion sequences, a preliminary test was conducted, uisng the embeddings from Prot-T5-XL-U50 model. More information on the base model can be found <a href=https://huggingface.co/Rostlab/prot_t5_xl_uniref50>here</a></p>.
-
+<p align='left'>The sequences sampled and genrated by FT-ProtGPT2 model are then filtered through a embedding based prion classifier. Protein-Language Models are known to learn deep feature representation of proteins and their functions (biological/physico-chemical) in form of numerical embeddings. To investigate if these models can distinguish between prion and non prion sequences, a preliminary test was conducted, uisng the embeddings from Prot-T5-XL-U50 model. More information on the base model can be found <a href=https://huggingface.co/Rostlab/prot_t5_xl_uniref50>here</a></p>
 <img width="1776" height="1006" alt="image" src="https://github.com/user-attachments/assets/198b7ea5-12d8-4bbd-8a2b-809d8f73a5b4" />
 <p>Figure (a) : The embeddings were then visualised in 2-D using t-SNE with multiple perplexity values.</p>
 <p>Figure (b) : Average Q and N content in prion proteins is approximately double of that present in normal non-prion proteins.</p>
