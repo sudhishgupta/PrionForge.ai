@@ -117,6 +117,14 @@ options:
                         Path to write the final output FASTA file.
 
 ```
+<h3>⚠️ Current Shortcomings</h3>
+<p>Due to limited compute capability available (Memory : 8GB ; GPU : 4GB Nvidia GeForce GTX 1650), the fine-tuning was done at lora-rank 8, due to which the perplexity of the fine-tuned model was around 1200. With higher compute, the model can be fine-tuned at higher depth.</p>
+<p></p>Prion Sequences from S.Cerevisiae were only used for fine-tuning ProtGPT2 and Prion-Classification.</p>
+<p></p>Due to limited diversity in Subcellular locations of the sequences used for fine-tuning, the tool takes higher sampling for sequence localizing in locations other than Nucleus, ER, Cytoplasm.
+</p>
+
+<h3>📈 Future Directions / Implementations</h3>
+<p>🖥️ With more powerful compute, Fine-Tune the PLM with more number of unfrozen parameters and with more sequences from diverse species and subcellular locations</p>
 
 
 
