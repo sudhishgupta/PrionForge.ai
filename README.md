@@ -37,4 +37,18 @@
 
 <h3>⌨️ Prion-Like Sequence Generation</h3>
 <p align='left'>Prion Sequence is generated using Fine Tuned Prot-T5-XL-U50 model. More information on the base model can be found <a href=https://huggingface.co/Rostlab/prot_t5_xl_uniref50>here</a>.
-The fine-tuned model has been tested to generate sequences of upto 512 amino acids. The generated sequences have been examined and found to have high QN content (~ 25-30%), with presence of single/multiple Prion Domains, which have also been verified from existing web based tools like <a href=http://plaac.wi.mit.edu/>PLAAC</a> and <a href=http://webapps.bifi.es/prionscan>PrionScan</a></p>
+The fine-tuned model has been tested to generate sequences of upto 512 amino acids. The generated sequences have been examined and found to have high QN content (~ 25-30%), with presence of single/multiple Prion Domains, which have also been verified from existing web based tools like <a href=http://plaac.wi.mit.edu/>PLAAC</a> and <a href=http://webapps.bifi.es/prionscan>PrionScan</a>.</p>
+<p align='left'>To examine the structural integrity, the generated sequences were also posted on the <a href=https://alphafoldserver.com/>AlphaFold Web Server</a>, and the structures showed high presence of alpha helices and random coils, alongwith beta-sheet motifs too, aligning with the charactertics of naturally occuring prion proteins.</p>
+<img width="1585" height="525" alt="image" src="https://github.com/user-attachments/assets/6381e804-d05f-4933-b5ba-0c3b58528887" />
+
+<h3>🗳️ Prion Classification</h3>
+<p align='left'>The sequences sampled and genrated by FT-ProtGPT2 model are then filtered through a embedding based prion classifier. Protein-Language Models are known to learn deep feature representation of proteins and their functions (biological/physico-chemical) in form of numerical embeddings. To investigate if these models can distinguish between prion and non prion sequences, a preliminary test was conducted, uisng the embeddings from Prot-T5-XL-U50 model. More information on the base model can be found <a href=https://huggingface.co/Rostlab/prot_t5_xl_uniref50>here</a></p>.
+
+<img width="1776" height="1006" alt="image" src="https://github.com/user-attachments/assets/198b7ea5-12d8-4bbd-8a2b-809d8f73a5b4" />
+<p>Figure (a) : The embeddings were then visualised in 2-D using t-SNE with multiple perplexity values.</p>
+<p>Figure (b) : Average Q and N content in prion proteins is approximately double of that present in normal non-prion proteins.</p>
+<p>Figure (c) : 3 Different models designed for <b>Prion Classification</b></p>
+<p>Figure (d) : Performance Comparison of models shows that Q/N Content alone is not performing well compared to embeddings alone, but the combination of both these information, makes the model better (in terms of recall and overall F1-Score)</p>
+
+
+
