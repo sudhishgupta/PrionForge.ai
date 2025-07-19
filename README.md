@@ -18,4 +18,4 @@
 <h2 align='left'> Under the Hood</h2>
 <h3 align='left'>🤖 Agentic Framework</h3>
 <p align='left'>In order to diversify and inherit a agentic-framework for this tool, each subtask of this application was given to a separate 'protein-language-model'</p>
-
+<img width="1918" height="606" alt="image" src="https://github.com/user-attachments/assets/e8fecd78-0c63-4fe8-a9f5-812e315bf4e8" />
