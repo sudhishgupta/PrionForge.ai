@@ -49,5 +49,9 @@ The fine-tuned model has been tested to generate sequences of upto 512 amino aci
 <p>Figure (c) : 3 Different models designed for <b>Prion Classification</b></p>
 <p>Figure (d) : Performance Comparison of models shows that Q/N Content alone is not performing well compared to embeddings alone, but the combination of both these information, makes the model better (in terms of recall and overall F1-Score)</p>
 
+<h3>🎯 Prion Sub-Cellular Localization Annotation</h3>
+<p align='left'>For generating prion-proteins with precise subcellular location, <b>DeepLoc-2.1</b> was deployed. DeepLoc-2.1 was configured to use Fair-ESM-1b Protein Langauage Model. More information on the base model can be found <a href=https://huggingface.co/Rostlab/prot_t5_xl_uniref50>here</a>.</p>
+<img width="1212" height="459" alt="image" src="https://github.com/user-attachments/assets/446570f9-c0c2-4d75-ab36-2197b0a7650f" />
+
 
 
