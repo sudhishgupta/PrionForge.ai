@@ -19,3 +19,21 @@
 <h3 align='left'>🤖 Agentic Framework</h3>
 <p align='left'>In order to diversify and inherit a agentic-framework for this tool, each subtask of this application was given to a separate 'protein-language-model'</p>
 <img width="1918" height="606" alt="image" src="https://github.com/user-attachments/assets/e8fecd78-0c63-4fe8-a9f5-812e315bf4e8" />
+<ol>
+  <li><h4>Fine-Tuned ProtGPT2</h4><p>Parameters ~  774M</p>
+    <p>Fine Tuned using LoRA : Low Rank Adaption for LLMs</p>
+    <p>LoRA Parameters :  lora_rank = 8 & learning_rate = 1e-4</p>
+    <p>Fine-Tuned over ~ 664 Prion-Sequences (from S.cerevisiae) obtained from PrionScan Database.</p>
+  </li>
+  <li><h4>Prot-T5-XL-UniRef50</h4>
+    <p>Parameters ~ 5B</p>
+    <p>Generated 1024 dimensional embeddings per protein (Prion/Non-Prion)</p>
+  </li>
+  <li><h4>Deeploc2.1 : Fair ESM-1b</h4>
+    <p>Parameters ~ 1b</p>
+    <p>Using Deeploc2.1 to predict subcellular location of the generated prion-like sequences.</p>
+  </li>
+</ol>
+
+<h3>⌨️ Prion-Like Sequence Generation</h3>
+
