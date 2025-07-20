@@ -38,7 +38,7 @@
 
 <h3>⌨️ Prion-Like Sequence Generation</h3>
 <p align='left'>Prion Sequence is generated using Fine Tuned Prot-T5-XL-U50 model. More information on the base model can be found <a href=https://huggingface.co/nferruz/ProtGPT2>here</a>.
-The fine-tuned model has been tested to generate sequences of upto 512 amino acids. The generated sequences have been examined and found to have high QN content (~ 25-30%), with presence of single/multiple Prion Domains, which have also been verified from existing web based tools like <a href=http://plaac.wi.mit.edu/>PLAAC</a> and <a href=http://webapps.bifi.es/prionscan>PrionScan</a>.</p>
+The fine-tuned model has been tested to generate sequences of upto 512 amino acids. The generated sequences have been examined and found to have high QN content, with presence of single/multiple Prion Domains, which have also been verified from existing web based tools like <a href=http://plaac.wi.mit.edu/>PLAAC</a> and <a href=http://webapps.bifi.es/prionscan>PrionScan</a>.</p>
 <p align='left'>To examine the structural integrity, the generated sequences were also posted on the <a href=https://alphafoldserver.com/>AlphaFold Web Server</a>, and the structures showed high presence of alpha helices and random coils, alongwith beta-sheet motifs too, aligning with the charactertics of naturally occuring prion proteins.</p>
 <img width="1692" height="721" alt="image" src="https://github.com/user-attachments/assets/6625eafb-79e0-4a66-85af-9af3d95aed70" />
 
