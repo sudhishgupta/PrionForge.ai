@@ -1,11 +1,12 @@
 <h1 align="center">🧬 PrionForge.ai 🧬</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/sudhishgupta/PrionForge%2Eai?style=flat-square" alt="GitHub stars"/>
-  <img src="https://img.shields.io/github/forks/sudhishgupta/PrionForge%2Eai?style=flat-square" alt="GitHub forks"/>
-  <img src="https://img.shields.io/github/issues/sudhishgupta/PrionForge%2Eai?style=flat-square" alt="GitHub issues"/>
-  <img src="https://img.shields.io/github/license/sudhishgupta/PrionForge%2Eai?style=flat-square" alt="License"/>
+  <img src="https://img.shields.io/github/stars/sudhishgupta/PrionForge.ai?style=flat-square" alt="GitHub stars"/>
+  <img src="https://img.shields.io/github/forks/sudhishgupta/PrionForge.ai?style=flat-square" alt="GitHub forks"/>
+  <img src="https://img.shields.io/github/issues/sudhishgupta/PrionForge.ai?style=flat-square" alt="GitHub issues"/>
+  <img src="https://img.shields.io/github/license/sudhishgupta/PrionForge.ai?style=flat-square" alt="License"/>
 </p>
+
 
 <p align="center">AI‑POWERED TOOL FOR GENERATING NOVEL "PRION-LIKE" PROTEINS WITH PRECISE SUBCELLULAR TARGETTING</p>
 
