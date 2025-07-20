@@ -31,7 +31,7 @@
     <p>Generated 1024 dimensional embeddings per protein (Prion/Non-Prion)</p>
   </li>
   <li><h4>Deeploc2.1 : Fair ESM-1b</h4>
-    <p>Parameters ~ 1b</p>
+    <p>Parameters ~ 1B</p>
     <p>Using Deeploc2.1 to predict subcellular location of the generated prion-like sequences.</p>
   </li>
 </ol>
@@ -119,7 +119,7 @@ options:
 
 ```
 <h3>⚠️ Current Shortcomings</h3>
-<p>Due to limited compute capability available (Memory : 8GB ; GPU : 4GB Nvidia GeForce GTX 1650), the fine-tuning was done at lora-rank 8, due to which the perplexity of the fine-tuned model was around 1200. With higher compute, the model can be fine-tuned at higher depth.</p>
+<p>Due to limited compute capability available (Memory(RAM) : 8GB ; GPU : 4GB Nvidia GeForce GTX 1650), the fine-tuning was done at lora-rank 8, due to which the perplexity of the fine-tuned model was around 1200. With higher compute, the model can be fine-tuned at higher depth.</p>
 <p></p>Prion Sequences from S.Cerevisiae were only used for fine-tuning ProtGPT2 and Prion-Classification.</p>
 <p></p>Due to limited diversity in Subcellular locations of the sequences used for fine-tuning, the tool takes higher sampling for sequence localizing in locations other than Nucleus, ER, Cytoplasm.
 </p>
